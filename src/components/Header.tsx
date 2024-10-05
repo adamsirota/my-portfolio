@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 const Header: React.FC = () => {
     return (
         <header>
-            <h1>adam sirota</h1>
+            <h1>Adam Sirota</h1>
             <nav>
-                <Link to = "/">home</Link>
-                <Link to="/about">about</Link>
-                <Link to="/projects">projects</Link>
-                <Link to="/contact">contact</Link>
-                <a href="https://www.linkedin.com/in/adam-sirota-56b416274/">linkedin</a>
-                <a href="https://github.com/adamsirota">github</a>
+                <Link to = "/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <a href="https://www.linkedin.com/in/adam-sirota-56b416274/">LinkedIn</a>
+                <a href="https://github.com/adamsirota">Github</a>
             </nav>
         </header>
     );

@@ -7,6 +7,7 @@ const Projects: React.FC = () => {
         <div>
             <Header />
             <section>
+                <h2>my projects</h2>
                 <a href="https://github.com/adamsirota/bank-complaints-analysis">bank complaint analysis</a>
                 <p>capstone project made during pre-internship program at citigroup. used data science, machine learning, and artificial intelligence techniques to:</p>
                 <p>1. find and visualize trends in a large dataset of complaints filed to banks</p>

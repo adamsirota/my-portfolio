@@ -18,9 +18,9 @@ const About: React.FC = () => {
             <section id = "skills">
                 <h2>skills</h2>
                 <h4>programming languages</h4>
-                <p>java, python, typescript, flutter, dart, html, css</p>
+                <p>java, python, typescript, javascript, react.js, flutter, dart, html, css</p>
                 <h4>tools</h4>
-                <p>vs code, eclipse, git, react, jupyter notebook</p>
+                <p>vs code, eclipse, git, jupyter notebook</p>
             </section>
             <Footer />
         </div>

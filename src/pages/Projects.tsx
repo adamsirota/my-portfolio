@@ -1,32 +1,49 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import './Projects.css'; // Assuming you have a CSS file to style the page
 
 const Projects: React.FC = () => {
     return (
         <div>
             <Header />
             <section>
-                <h2>my projects</h2>
-                <a href="https://github.com/adamsirota/bank-complaints-analysis">bank complaint analysis</a>
-                <p>capstone project made during pre-internship program at citigroup. used data science, machine learning, and artificial intelligence techniques to:</p>
-                <p>1. find and visualize trends in a large dataset of complaints filed to banks</p>
-                <p>2. train a model to classify new incoming complaints automatically</p>
-                <p>presented findings to citigroup executives and peers</p>
-                <a href="https://github.com/adamsirota/pitch-similarity-app">pitch similarity app</a>
-                <p>flask app that takes user input of attributes of a baseball pitch and finds the most similar pitches using up-to-date data from pybaseball</p>
-                <a href="https://github.com/adamsirota/grade-calculator-app">grade calculator app</a>
-                <p>flutter app made in app development class, acts as a normal calculator and a gpa calculator that:</p>
-                <p>takes user input for a student's classes and grades</p>
-                <p>calculates average and converts to 4.0-scale gpa</p>
-                <p>can calculate the total points the student needs to reach a target gpa/average</p>
-                <a href="https://github.com/adamsirota/ai-song-recommender">ai song recommender</a>
-                <p>project made in preparation for citigroup pre-internship program</p>
-                <p>uses cosine similarity to recommend similar songs from a dataset based on a user input</p>
+                <h2>Projects</h2>
+                
+                <article>
+                    <a href="https://github.com/adamsirota/bank-complaints-analysis">Bank Complaint Analysis</a>
+                    <p>Capstone project made during pre-internship program at Citigroup. Used data science, machine learning, and artificial intelligence techniques to:</p>
+                    <ol>
+                        <li>Find and visualize trends in a large dataset of complaints filed to banks.</li>
+                        <li>Train a model to classify new incoming complaints automatically.</li>
+                    </ol>
+                    <p>Presented findings to Citigroup executives and peers.</p>
+                </article>
+
+                <article>
+                    <a href="https://github.com/adamsirota/pitch-similarity-app">Pitch Similarity App</a>
+                    <p>Flask app that takes user input of attributes of a baseball pitch and finds the most similar pitches using up-to-date data from PyBaseball.</p>
+                </article>
+
+                <article>
+                    <a href="https://github.com/adamsirota/grade-calculator-app">Grade Calculator App</a>
+                    <p>Flutter app made in app development class. Acts as a normal calculator and a GPA calculator that:</p>
+                    <ul>
+                        <li>Takes user input for a student's classes and grades.</li>
+                        <li>Calculates average and converts to 4.0-scale GPA.</li>
+                        <li>Can calculate the total points the student needs to reach a target GPA/average.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <a href="https://github.com/adamsirota/ai-song-recommender">AI Song Recommender</a>
+                    <p>Project made in preparation for Citigroup pre-internship program. Uses cosine similarity to recommend similar songs from a dataset based on user input.</p>
+                </article>
+                
             </section>
             <Footer />
         </div>
-    )
-}
+    );
+};
 
 export default Projects;

@@ -1,13 +1,17 @@
 /* src/index.css */
-body {
-  font-family: 'Lato';
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
   background: #70287E;
   color: #A7C5E7;
-  height: 100%;
+}
+
+#root {
   display: flex;
   flex-direction: column;
+  min-height: 100vh; /* Ensures the container fills the height of the screen */
 }
 
 header {
@@ -23,7 +27,8 @@ nav a {
   margin-left: 20px;
 }
 
-section {
+main {
+  flex: 1; /* Allows the main content to grow and take up the remaining space */
   padding: 10px 20px;
 }
 

@@ -15,6 +15,12 @@ const About: React.FC = () => {
                 <p>september 2020 - june 2024</p>
                 <p>relevant coursework: ap computer science a, ap calculus bc, linear algebra, app development</p>
             </section>
+            <section id = "skills">
+                <h2>programming languages</h2>
+                <p>java, python, typescript, flutter, dart, html, css</p>
+                <h2>tools</h2>
+                <p>vs code, eclipse, git, react, jupyter notebook</p>
+            </section>
             <Footer />
         </div>
     );

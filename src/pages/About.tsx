@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 <h4>programming languages</h4>
                 <p>java, python, typescript, javascript, react.js, flutter, dart, html, css</p>
                 <h4>tools</h4>
-                <p>vs code, eclipse, git, jupyter notebook</p>
+                <p>vs code, eclipse, git, jupyter notebook, junit testing</p>
             </section>
             <Footer />
         </div>

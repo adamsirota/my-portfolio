@@ -4,23 +4,26 @@ import Footer from "../components/Footer";
 
 const About: React.FC = () => {
     return (
-        <div>
+        <div className="container">
             <Header />
-            <section id = "education">
-                <h2>education</h2>
-                <h4>university of maryland, college park</h4>
-                <p>expected graduation: 2027</p>
-                <p>relevant coursework: object-oriented programming, applied probability and statistics</p>
-                <h4>the bronx high school of science</h4>
-                <p>september 2020 - june 2024</p>
-                <p>relevant coursework: ap computer science a, ap calculus bc, linear algebra, app development</p>
+            <section id="education">
+                <h2>Education</h2>
+                <h4>University of Maryland, College Park</h4>
+                <p>Expected Graduation: 2027</p>
+                <p>Relevant Coursework: Object-Oriented Programming, Applied Probability and Statistics</p>
+
+                <h4>The Bronx High School of Science</h4>
+                <p>September 2020 - June 2024</p>
+                <p>Relevant Coursework: AP Computer Science A, AP Calculus BC, Linear Algebra, App Development</p>
             </section>
-            <section id = "skills">
-                <h2>skills</h2>
-                <h4>programming languages</h4>
-                <p>java, python, typescript, javascript, react.js, flutter, dart, html, css</p>
-                <h4>tools</h4>
-                <p>vs code, eclipse, git, jupyter notebook, junit testing</p>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <h4>Programming Languages</h4>
+                <p>Java, Python, TypeScript, JavaScript, React.js, Flutter, Dart, HTML, CSS</p>
+
+                <h4>Tools</h4>
+                <p>VS Code, Eclipse, Git, Jupyter Notebook, JUnit Testing</p>
             </section>
             <Footer />
         </div>
@@ -28,4 +31,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-

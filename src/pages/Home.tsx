@@ -4,12 +4,12 @@ import Footer from "../components/Footer";
 
 const Home: React.FC = () => {
     return (
-        <div>
+        <div className="container">
             <Header />
-            <section id = "about">
-                <h2>introduction</h2>
-                <p>hey, i'm adam sirota. i'm from new york city and am currently studying computer science at the university of maryland</p>
-                <p>feel free to contact me at adamsirota2006@gmail.com or asirota2@umd.edu or use the contact tab on the website</p>
+            <section id="about">
+                <h2>Introduction</h2>
+                <p>Hey, I'm Adam Sirota. I'm from New York City and currently studying Computer Science at the University of Maryland.</p>
+                <p>Feel free to contact me at <a href="mailto:adamsirota2006@gmail.com">adamsirota2006@gmail.com</a> or <a href="mailto:asirota2@umd.edu">asirota2@umd.edu</a>, or use the contact tab on the website.</p>
             </section>
             <Footer />
         </div>

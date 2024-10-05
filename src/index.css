@@ -1,49 +1,26 @@
 /* src/index.css */
-html, body {
+body, html {
   height: 100%;
   margin: 0;
-  padding: 0;
-  font-family: 'Quicksand', sans-serif;
-  background: #F4F4F9;
-  color: #333333;
 }
 
+/* This will make the root div a flex container */
 #root {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Make it at least the height of the viewport */
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #333;
-  color: white;
-  padding: 10px 20px;
+/* Section will expand to fill available space */
+section {
+  flex: 1; /* Allow the section to grow */
+  padding: 20px; /* Add padding for spacing */
 }
 
-nav a {
-  color: white;
-  margin-left: 20px;
-}
-
-main {
-  flex: 1;
-  padding: 10px 20px;
-}
-
+/* Styling for the footer */
 footer {
   background: #333;
   color: white;
   text-align: center;
   padding: 10px 0;
 }
-
-section {
-  margin-left: 20px;
-}
-
-article {
-  margin-left: 20px;
-}
-

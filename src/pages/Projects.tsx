@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import './Projects.css'; // Assuming you have a CSS file to style the page
 
 const Projects: React.FC = () => {
     return (

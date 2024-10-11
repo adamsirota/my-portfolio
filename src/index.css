@@ -81,3 +81,11 @@ a {
 a:hover {
   color: #DEF2F1;
 }
+
+h1:hover {
+  color:#17252A;
+}
+
+.hey:hover {
+  color: #FEFFFF;
+}

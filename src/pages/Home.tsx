@@ -7,30 +7,30 @@ const Home: React.FC = () => {
         <div className="container">
             <Header />
             <section id="about">
-                <h1><span className='hey'>Hey,</span> I'm Adam Sirota.</h1>
+                <h1 className='big'><span className='hey'>Hey,</span> I'm Adam Sirota.</h1>
                 <p>I'm from <span className='white'>New York City</span> and am currently studying <span className='white'>Computer Science</span> at the <span className='white'>University of Maryland</span>.</p>
                 <p>Feel free to contact me anytime at <a href="mailto:adamsirota2006@gmail.com">adamsirota2006@gmail.com</a> or <a href="mailto:asirota2@umd.edu">asirota2@umd.edu</a></p>
             </section>
             <section id="education">
-                <h2>Education</h2>
-                <h4>University of Maryland, College Park</h4>
+                <h1>Education</h1>
+                <h3>University of Maryland, College Park</h3>
                 <p>Expected Graduation: 2027</p>
                 <p>Relevant Coursework: Object-Oriented Programming, Applied Probability and Statistics</p>
 
-                <h4>The Bronx High School of Science</h4>
+                <h3>The Bronx High School of Science</h3>
                 <p>September 2020 - June 2024</p>
                 <p>Relevant Coursework: AP Computer Science A, AP Calculus BC, Linear Algebra, App Development</p>
             </section>
             <section id="skills">
-                <h2>Skills</h2>
-                <h4>Programming Languages</h4>
+                <h1>Skills</h1>
+                <h3>Programming Languages</h3>
                 <p>Java, Python, TypeScript, JavaScript, React.js, Flutter, Dart, HTML, CSS</p>
 
-                <h4>Tools</h4>
+                <h3>Tools</h3>
                 <p>VS Code, Eclipse, Git, Jupyter Notebook, JUnit Testing</p>
             </section>
             <section id="projects">
-                <h2>Projects</h2>
+                <h1>Projects</h1>
                 
                 <article>
                     <a href="https://github.com/adamsirota/bank-complaints-analysis">Bank Complaint Analysis</a>

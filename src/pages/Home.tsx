@@ -7,8 +7,8 @@ const Home: React.FC = () => {
         <div className="container">
             <Header />
             <section id="about">
-                <h2>Introduction</h2>
-                <p>Hey, I'm Adam Sirota. I'm from New York City and am currently studying Computer Science at the University of Maryland.</p>
+                <h1><span className='hey'>Hey,</span> I'm Adam Sirota.</h1>
+                <p>I'm from New York City and am currently studying Computer Science at the University of Maryland.</p>
                 <p>Feel free to contact me at <a href="mailto:adamsirota2006@gmail.com">adamsirota2006@gmail.com</a> or <a href="mailto:asirota2@umd.edu">asirota2@umd.edu</a></p>
             </section>
             <section id="education">

@@ -66,3 +66,16 @@ p {
 h1 {
   color: #FEFFFF;
 }
+
+.white {
+  color: #FEFFFF;
+}
+
+a {
+  color: #2B7A78;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DEF2F1;
+}

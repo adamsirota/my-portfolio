@@ -8,8 +8,8 @@ const Home: React.FC = () => {
             <Header />
             <section id="about">
                 <h1><span className='hey'>Hey,</span> I'm Adam Sirota.</h1>
-                <p>I'm from New York City and am currently studying Computer Science at the University of Maryland.</p>
-                <p>Feel free to contact me at <a href="mailto:adamsirota2006@gmail.com">adamsirota2006@gmail.com</a> or <a href="mailto:asirota2@umd.edu">asirota2@umd.edu</a></p>
+                <p>I'm from <span className='white'>New York City</span> and am currently studying <span className='white'>Computer Science</span> at the <span className='white'>University of Maryland</span>.</p>
+                <p>Feel free to contact me anytime at <a href="mailto:adamsirota2006@gmail.com">adamsirota2006@gmail.com</a> or <a href="mailto:asirota2@umd.edu">asirota2@umd.edu</a></p>
             </section>
             <section id="education">
                 <h2>Education</h2>

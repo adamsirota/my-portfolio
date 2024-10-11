@@ -45,6 +45,8 @@ footer {
 
 section {
   margin-left: 20px;
+  min-height: 100vh;
+  padding: 50px 20px;
 }
 
 article {
@@ -80,12 +82,4 @@ a {
 
 a:hover {
   color: #DEF2F1;
-}
-
-h1:hover {
-  color:#17252A;
-}
-
-.hey:hover {
-  color: #FEFFFF;
 }

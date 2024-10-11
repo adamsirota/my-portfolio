@@ -6,9 +6,10 @@ const Header: React.FC = () => {
         <header>
             <h1>Adam Sirota</h1>
             <nav>
-                <Link to = "/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
                 <a href="https://www.linkedin.com/in/adam-sirota-56b416274/">LinkedIn</a>
                 <a href="https://github.com/adamsirota">Github</a>
             </nav>

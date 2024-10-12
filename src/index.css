@@ -91,3 +91,7 @@ a:hover {
 h1 {
   color: #2B7A78;
 }
+
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

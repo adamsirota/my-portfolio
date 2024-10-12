@@ -49,7 +49,7 @@ footer {
 
 section {
   margin-left: 20px;
-  min-height: 50vh;
+  min-height: 30vh;
   padding: 30px 20px;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 
 a {
-  color: #2B7A78;
+  color: #17252A;
   text-decoration: none;
 }
 

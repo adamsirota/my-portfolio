@@ -9,7 +9,7 @@ html, body {
   padding: 0;
   font-family: 'Quicksand', sans-serif;
   background: #17252A;
-  color: #3AAFA9;
+  color: #FEFFFF;
 }
 
 #root {
@@ -76,7 +76,7 @@ p {
 }
 
 .white {
-  color: #FEFFFF;
+  color: #2B7A78;
 }
 
 a {
@@ -94,4 +94,8 @@ h1 {
 
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerr {
+  color: #17252A;
 }

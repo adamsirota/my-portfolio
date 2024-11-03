@@ -21,7 +21,7 @@ html, body {
 header {
   display: flex;
   justify-content: space-between;
-  background: #3AAFA9;
+  background: #17252A;
   color: #FEFFFF;
   padding: 10px 10px;
 }
@@ -33,6 +33,7 @@ header:hover {
 nav a {
   color: white;
   margin-left: 20px;
+  font-size: 20px;
 }
 
 main {

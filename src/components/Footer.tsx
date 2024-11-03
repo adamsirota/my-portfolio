@@ -3,7 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
     return (
         <footer>
-            <p>coded by me in visual studio code. built with typescript and css. deployed with vercel.</p>
+            <p>Coded by me in Visual Studio Code. Built with Typescript and CSS. Deployed with Vercel.</p>
         </footer>
     );
 };

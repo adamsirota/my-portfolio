@@ -19,7 +19,7 @@ html, body {
 }
 
 header {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   background: #17252A;
   color: #FEFFFF;
@@ -31,7 +31,6 @@ header:hover {
 }
 
 nav a {
-  float: none;
   color: white;
   margin-left: 20px;
   font-size: 20px;

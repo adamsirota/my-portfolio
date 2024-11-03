@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                 <h1>Projects</h1>
                 
                 <article>
-                    <a id = "proj" href="https://github.com/adamsirota/bank-complaints-analysis">Bank Complaint Analysis</a>
+                    <a className = "proj" href="https://github.com/adamsirota/bank-complaints-analysis">Bank Complaint Analysis</a>
                     <p>Capstone project made during pre-internship program at Citigroup. Used data science, machine learning, and artificial intelligence techniques to:</p>
                     <ol>
                         <li>Find and visualize trends in a large dataset of complaints filed to banks.</li>
@@ -43,12 +43,12 @@ const Home: React.FC = () => {
                 </article>
 
                 <article>
-                    <a id = "proj" href="https://github.com/adamsirota/pitch-similarity-app">Pitch Similarity App</a>
+                    <a className = "proj" href="https://github.com/adamsirota/pitch-similarity-app">Pitch Similarity App</a>
                     <p>Flask app that takes user input of attributes of a baseball pitch and finds the most similar pitches using up-to-date data from PyBaseball.</p>
                 </article>
 
                 <article>
-                    <a id = "proj" href="https://github.com/adamsirota/grade-calculator-app">Grade Calculator App</a>
+                    <a className = "proj" href="https://github.com/adamsirota/grade-calculator-app">Grade Calculator App</a>
                     <p>Flutter app made in app development class. Acts as a normal calculator and a GPA calculator that:</p>
                     <ul>
                         <li>Takes user input for a student's classes and grades.</li>
@@ -58,7 +58,7 @@ const Home: React.FC = () => {
                 </article>
 
                 <article>
-                    <a id = "proj" href="https://github.com/adamsirota/ai-song-recommender">AI Song Recommender</a>
+                    <a className = "proj" href="https://github.com/adamsirota/ai-song-recommender">AI Song Recommender</a>
                     <p>Project made in preparation for Citigroup pre-internship program. Uses cosine similarity to recommend similar songs from a dataset based on user input.</p>
                 </article>
                 

@@ -21,9 +21,10 @@ html, body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #17252A;
   color: #FEFFFF;
-  padding: 10px 10px;
+  padding: 10px 20px;
 }
 
 header:hover {
@@ -100,4 +101,14 @@ li {
 .proj {
   font-weight: bold;
   font-size: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex; /* Ensures links are in a row */
+  gap: 20px; /* Adds space between links */
 }

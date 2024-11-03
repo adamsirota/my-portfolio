@@ -32,6 +32,7 @@ header:hover {
 
 nav a {
   color: white;
+  margin-left: 20px;
   font-size: 20px;
 }
 
@@ -95,7 +96,8 @@ h1 {
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*
 .headerr {
   color: #17252A;
 }
+  */

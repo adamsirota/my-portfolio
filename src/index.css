@@ -109,6 +109,10 @@ li {
 }
 
 nav {
-  display: flex; /* Ensures links are in a row */
-  gap: 20px; /* Adds space between links */
+  display: flex;
+  gap: 20px;
+}
+
+nav a:hover {
+  color: #2B7A78;
 }

@@ -59,7 +59,7 @@ article {
 }
 
 h2 {
-  color: #2B7A78
+  color: #3AAFA9
 }
 
 p {
@@ -101,3 +101,8 @@ li {
   color: #17252A;
 }
   */
+
+.proj {
+  font-weight: bold;
+  font-size: 16px;
+}

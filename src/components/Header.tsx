@@ -10,8 +10,8 @@ const Header: React.FC = () => {
                 <a href="#education">Education</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
-                <a href="https://www.linkedin.com/in/adam-sirota-56b416274/">LinkedIn</a>
-                <a href="https://github.com/adamsirota">GitHub</a>
+                <a href="https://www.linkedin.com/in/adam-sirota-56b416274/" target='_blank'>LinkedIn</a>
+                <a href="https://github.com/adamsirota" target='_blank'>GitHub</a>
             </nav>
         </header>
     );

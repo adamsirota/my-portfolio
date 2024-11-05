@@ -87,13 +87,13 @@ p {
 }
 
 a {
-  color: #005B72;
+  color: #DEF2F1;
   text-decoration: underline;
   text-decoration-color: #3AAFA9;
 }
 
 a:hover {
-  color: #DEF2F1;
+  color: #005B72;
 }
 
 h1 {

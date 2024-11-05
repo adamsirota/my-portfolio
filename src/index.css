@@ -88,7 +88,8 @@ p {
 
 a {
   color: #005B72;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #3AAFA9;
 }
 
 a:hover {

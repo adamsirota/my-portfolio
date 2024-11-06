@@ -172,7 +172,7 @@ nav a.active {
   color: #3AAFA9;
 }
 
-p, ol, ul {
+.projects p, ol, ul {
   color: #17252A;
   font-size: 16px;
 }

@@ -135,3 +135,48 @@ nav a.active {
   color: #3AAFA9;
   font-weight: bold;
 }
+
+#projects {
+  padding: 20px;
+}
+
+.project-card {
+  background: #DEF2F1;
+  color: #17252A;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-title a {
+  color: #3AAFA9;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  color: #2B7A78;
+}
+
+.project-title i {
+  margin-left: 8px;
+  font-size: 20px;
+  color: #3AAFA9;
+}
+
+p, ol, ul {
+  color: #17252A;
+  font-size: 16px;
+}
+
+ol, ul {
+  margin: 0 0 10px 20px;
+}

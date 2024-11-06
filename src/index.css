@@ -94,7 +94,6 @@ a {
 
 a:hover {
   color: #005B72;
-  transition-duration: 300;
 }
 
 h1 {
@@ -122,4 +121,17 @@ nav {
 
 nav a:hover {
   color: #2B7A78;
+}
+
+h1, h2 .big {
+  font-size: clamp(1.5rem, 2.5vw, 6rem);
+}
+
+main {
+  padding: 60px 20px 10px;
+}
+
+nav a.active {
+  color: #3AAFA9;
+  font-weight: bold;
 }

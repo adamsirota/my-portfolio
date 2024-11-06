@@ -94,6 +94,7 @@ a {
 
 a:hover {
   color: #005B72;
+  transition-duration: 300;
 }
 
 h1 {
